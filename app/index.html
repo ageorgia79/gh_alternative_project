@@ -20,138 +20,99 @@
             <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->
 
-<div>
+    <div>
 
-    <div class="container">
-        <div class="leftbar">
-            <img src="https://avatars.githubusercontent.com/u/6855781?">
-                <h1>Andy Georgia</h1>
-                    <h2>ageorgia79</h2>
-                        <ul class="miscinfo">
-                            <li class="ironyard">
-                                The Iron Yard
-                            </li>
-                            <li class="greenville">
-                                Greenville, SC
-                            </li>   
-                            <li class="email">
-                                <a href="mail.live.com">andygeorgia@hotmail.com</a>
-                            </li>
-                            <li class="joined">
-                            Joined on Mar 04, 2014
-                            </li>
-                        </ul>
-    <div class="stats">
-        <a class="followbox" href="/ageorgia79/followers">
-            <strong class="fcount">0</strong>
-            Followers
-        </a>
-        <a class="starbox" href="/stars">
-            <strong class="scount">0</strong>
-            Starred
-        </a>
-        <a class="followingbox" href="/ageorgia79/followers">
-            <strong class="fingcount">0</strong>
-            Following
-
-        </a>
-    </div> 
+        <div class="container">
+            
+            <div class="leftbar">
+                <span1>Followers</span1>
+                <span2>Following</span2>
+                <span3>Starred</span3>  
+                <a href="https://api.github.com/users/ageorgia79/starred{/owner}{/repo}">0</a>
 
 
+            </div>
 
-        </div>
+              
 
+            
         
-    
-        <div class="rightbar"></div>
-        <script type="text/template" class="get-name">
-                    <div class="name"> <%= name %> </div>
-        </script>
+            <div class="rightbar">
 
-        <script type="text/template" class="get-forks">
-                    <div> <% forks %> </div>
-        </script>
+            </div>
 
+        </div> 
 
+    </div>
 
     
-
-
-
-
-        
-
-
-    </div> 
-    
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-                    
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-</div>
-
-
+<!--SCRIPT TAGS-->
+    <script type"text/template" class="left-bar">
+         <img src="<%= avatar_url %>"  class="avatar">
+    </script>
+
+    <script type"text/template" class="left-bar">
+        <div class="name"> <%= name %> </div>
+    </script>
+
+    <script type"text/template" class="left-bar">
+        <div class="login"> <%= login %> </div>
+    </script>
+
+    <script type"text/template" class="left-bar">
+        <div class="company"> <%= company %> </div>
+    </script>
+
+    <script type"text/template" class="left-bar">
+        <div class="location"> <%= location %> </div>
+    </script>
+
+    <script type"text/template" class="left-bar">
+        <div class="email"> <%= email %> </div>
+    </script>
+
+    <script type"text/template" class="left-bar">
+        <div class="created_at"> <%= created_at %> </div>
+    </script>
+
+    <script type"text/template" class="left-bar">
+        <div class="followers"> <%= followers %> </div>
+    </script>
+
+    <script type"text/template" class="left-bar">
+        <div class="following"> <%= following %> </div>
+    </script>
+
+    <script type"text/template" class="right-bar">
+        <div class="reponames"> <%= name %> </div>
+    </script>
+
+    <script type"text/template" class="right-bar">
+        <div class="updatedat"> <%= updated_at %> </div>
+    </script>
+
+    <script type"text/template" class="right-bar">
+        <div class="language"> <%= language %> </div>
+    </script>
+
+    <script type"text/template" class="right-bar">
+        <div class="stargazers"> <%= stargazers_count %> </div>
+    </script>
+
+    <script type"text/template" class="right-bar">
+        <div class="forkscount"> <%= forks_count %> </div>
+    </script>
        
+
+
+    
+   
+    
+
+
+         
+
+    
 
 
         <!-- build:js scripts/vendor.js -->

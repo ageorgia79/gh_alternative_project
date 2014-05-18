@@ -5,31 +5,9 @@ body {
     background: white;
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
     color: #333;
-    
 }
 
-.hero-unit {
-    margin: 50px auto 0 auto;
-    width: 300px;
-    font-size: 18px;
-    font-weight: 200;
-    line-height: 30px;
-    background-color: #eee;
-    border-radius: 6px;
-    padding: 60px;
-h1 {
-    font-size: 60px;
-    line-height: 1;
-    letter-spacing: -1px;
-}
-}
 
-.browsehappy {
-    margin: 0.2em 0;
-    background: #ccc;
-    color: #000;
-    padding: 0.2em 0;
-}
 
 .container {
     width: 980px;
@@ -38,6 +16,7 @@ h1 {
     margin-right: auto;
     margin-left: auto;
 }
+
 .leftbar {
     width: 25%;
     height: 943px;
@@ -45,12 +24,39 @@ h1 {
     padding-left: 10px;
     padding-right: 10px;
 }
-.leftbar img {
+.leftbar span1 {
+    font-size: 11px;
+    color: #aaa;
+    position: relative;
+    top: 14px;
+    right: 68px;
+
+}
+.leftbar span2 {
+    font-size: 11px;
+    color: #aaa;
+    float: right;
+    position: relative;
+    bottom: 27px;
+    right: 19px;
+
+}
+.leftbar span3 {
+    font-size: 11px;
+    color: #aaa;
+    float: right;
+    position: relative;
+    right: 62px;
+    bottom: 27px;
+}
+
+.avatar  {
     height: 230px;
     width: 230px;
     border-radius: 6px;
 }
-.leftbar h1 {
+
+.name {
     display: block;
     margin: 0;
     position: relative;
@@ -58,14 +64,17 @@ h1 {
     overflow: hidden;
     width: 100%;
     font-size: 26px;
+    font-weight: bolder;
     line-height: 30px;
     text-overflow: ellipsis;
+
 }
-.leftbar h2 {
+
+.login {
     display: block;
-    margin: 0;
+    margin-bottom: 20px;
     position: relative;
-    top: 5px;
+    top: 4px;
     overflow: hidden;
     width: 100%;
     font-size: 20px;
@@ -74,121 +83,158 @@ h1 {
     line-height: 24px;
     color: #666;
     text-overflow: ellipsis;
+    
 }
+.company {
+    width: 90%;
+    padding: 2px 0 2px 24px;
+    padding-top: 15px;
+    display: block;
+    overflow-x: hidden;
+    font-size: 14px;
+    text-overflow: ellipsis;
+    position: relative;
+    border-top: 1px solid #eee;
+}
+.location {
+    width: 100%;
+    padding: 2px 0 2px 24px;
+    display: block;
+    overflow-x: hidden;
+    font-size: 14px;
+    text-overflow: ellipsis;
+    
+}
+.email {
+    width: 100%;
+    display: block;
+    padding: 2px 0 2px 24px;
+    color: #4183c4;
+    font-size: 14px;
+}
+.created_at {
+    width: 100%;
+    display: block;
+    padding: 2px 0 2px 24px;
+    padding-bottom: 15px;
+    font-size: 14px;
+}
+
 .rightbar {
     width: 70%;
-    height: 843px;
+    height: 950px;
     float: left;
     padding-left: 10px;
     padding-right: 10px;
     margin-top: 100px;
 }
 
-.name {
+.reponames {
     color: #4183c4;
     font-size: 20px;
     font-weight: bold;
-    line-height: 32px;
-    white-space: nowrap;
-
-}
-
-.miscinfo {
     list-style: none;
-    list-style-type: none;
-    padding-top: 15px;
-    padding-bottom: 35px;
-    border-top: 1px solid #eee;
-    border-top-width: 1px;
-    border-top-style: solid;
-    
-}
-ul {
+    min-height: 66px;
     position: relative;
-    top: 20px;
-    margin-top: 0;
-    margin-bottom: 0;
-    padding: 0;
+    padding-left: 45px;
+    border-bottom: 1px solid #eee;
+    white-space: nowrap;
+    top: -16px;
+    
+    
+
 }
-.ironyard {
-    padding: 2px 0 2px 24px;
-    overflow-x: hidden;
-    font-size: 14px;
-    text-overflow: ellipsis;
+
+.updatedat {
+    margin: 0;
+    font-size: 11px;
+    color: #999999;
+    display: block;
+    list-style: none;
+    padding-left: 45px;
+    position: relative;
+    bottom: 49px;
 }
-.greenville {
-    padding: 2px 0 2px 24px;
-    overflow-x: hidden;
-    font-size: 14px;
-    text-overflow: ellipsis;
+
+.language {
+    list-style: none;
+    font-size: 11px;
+    font-weight: bold;
+    color: #666;
+    float: right;
+    position: relative;
+    bottom: 88px;
+    right: 86px;
 }
-.email {
-    padding: 2px 0 2px 24px;
-    overflow-x: hidden;
-    font-size: 14px;
-    text-overflow: ellipsis;
+
+.stargazers {
+    position: relative;
+    left: 634px;
+    bottom: 88px;
+    font-size: 11px;
+    font-weight: bold;
+    float: right 100%;
+    
+
 }
-a {
-    color: #4183c4;
+
+.forkscount {
+    position: relative;
+    font-size: 11px;
+    font-weight: bold;
+    bottom: 101px;
+    left: 98%;
+
 }
-.joined {
-    padding: 2px 0 2px 24px;
-    overflow-x: hidden;
-    font-size: 14px;
-    text-overflow: ellipsis;
-}
-.stats {
-    margin-bottom: 20px;
-    padding-top: 15px;
-    padding-bottom: 55px;
+
+
+.followers {
+    
+    padding-top: 20px;
+    padding-bottom: 26px;
+    display: inline-block;
+    width: 33.333%;
+    font-size: 28px;
+    font-weight: bold;
+    line-height: 1;
     text-align: center;
     border-top: 1px solid #eee;
     border-bottom: 1px solid #eee;
 }
-.followbox {
-    float: left;
-    width: 33.333%;
-    font-size: 11px;
-    color: #999;
-    text-transform: capitalize;
-    text-decoration: none;
-}
-.fcount {
-    display: block;
-    font-size: 28px;
-    font-weight: bold;
-    line-height: 1;
-    color: #222;
 
-}
-.starbox {
-    float: left;
+.leftbar a {
+    padding-top: 20px;
+    padding-bottom: 26px;
+    display: inline-block;
     width: 33.333%;
-    font-size: 11px;
-    color: #999;
-    text-transform: capitalize;
-    text-decoration: none;
-}
-.scount {
-    display: block;
     font-size: 28px;
     font-weight: bold;
     line-height: 1;
-    color: #222;
-}
-.followingbox {
-    float: left;
-    width: 33.333%;
-    font-size: 11px;
-    color: #999;
-    text-transform: capitalize;
+    text-align: center;
+    border-top: 1px solid #eee;
+    border-bottom: 1px solid #eee;
     text-decoration: none;
+    color: black;
+    position: relative;
+    left: 81px;
+    bottom: 76px;
 }
-.fingcount {
-    display: block;
+
+
+.following {
+   padding-top: 20px;
+    padding-bottom: 26px;
+    width: 33.333%;
     font-size: 28px;
     font-weight: bold;
     line-height: 1;
-    color: #222;
+    text-align: center;
+    border-top: 1px solid #eee;
+    float: right;
+    border-bottom: 1px solid #eee;
+    position: relative;
+    
+    
 }
+
 
