@@ -2,6 +2,7 @@
 // endbower
 
 body {
+    margin: 0 auto;
     background: white;
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
     color: #333;
@@ -51,6 +52,9 @@ body {
     opacity: 0.8;
 
 }
+.navbar {
+    margin: 0;
+}
 
 .navbar li1 {
     display: inline-block;
@@ -88,6 +92,44 @@ body {
     left: 283px;
     top: 11px;
 }
+.rightnavbar img {
+    height: 20px;
+    width: 20px;
+    margin: 0 auto;
+    position: relative;
+    float: right;
+    bottom: 24px;
+    right: 175px;
+}
+.rightnavbar p {
+    float: right;
+    font-size: 13px;
+    font-weight: bold;
+    margin: 0 auto;
+    position: relative;
+    right: 82px;
+    bottom: 24px;
+}
+.plus img {
+    float: right;
+    position: relative;
+    left: 10px;
+    bottom: 20px;
+}
+
+.tools img {
+    float: right;
+    position: relative;
+    left: 60px;
+    bottom: 23px;
+}
+
+.door img {
+    float: right;
+    position: relative;
+    left: 105px;
+    bottom: 22px;
+}
 
 .container {
     width: 980px;
@@ -95,7 +137,10 @@ body {
     margin-top: 40px;
     margin-right: auto;
     margin-left: auto;
+
 }
+
+
 
 
 
@@ -208,7 +253,59 @@ body {
     float: left;
     padding-left: 10px;
     padding-right: 10px;
-    margin-top: 100px;
+    //margin-top: 110px;
+}
+
+.moreinfo {
+    width: 70%;
+    height: 120px;
+    margin-left: 30%;
+
+}
+
+.centerbar {
+    height: 25px;
+    font-size: 15px;
+    margin: 0 0 15px;
+    padding-left: 10px;
+    
+    
+    
+
+}
+.centerbar li1 {
+    font-size: 14px;
+    margin-bottom: -1px;
+    padding: 8px 12px 7px;
+    border: 1px solid transparent;
+    border-bottom: 1px solid #ddd;
+    line-height: 20px;
+    color: #666;
+    position: relative;
+    left: 4px;
+}
+
+.centerbar li2 {
+    font-size: 14px;
+    padding: 8px 12px 7px;
+    line-height: 20px;
+    color: #666;
+    border-left: 1px solid #ddd;
+    border-top: 1px solid #ddd;
+    border-right: 1px solid #ddd;
+    
+    border-radius: 3px 3px 0 0;
+}
+
+.centerbar li3 {
+    font-size: 14px;
+    color: #666;
+    padding: 8px 12px 7px;
+    line-height: 20px;
+    //border-bottom: 1px solid #ddd;
+    position: relative;
+    border-bottom: 1px solid #ddd;
+    right: 4px;
 }
 
 .reponames {
@@ -223,9 +320,26 @@ body {
     white-space: nowrap;
     top: -16px;
     
-    
-
 }
+.stars {
+    position: relative;
+    float: right;
+    height: 11px;
+    right: 57px;
+    bottom: 75px;
+}
+.forkimg {
+    position: relative;
+    float: right;
+    height: 11px;
+    right: 6px;
+    bottom: 75px;
+}
+
+.books {
+    position: relative;
+}
+
 
 .updatedat {
     margin: 0;
@@ -233,9 +347,11 @@ body {
     color: #999999;
     display: block;
     list-style: none;
-    padding-left: 45px;
+    //padding-left: 45px;
     position: relative;
     bottom: 49px;
+    left: 45px;
+
 }
 
 .language {

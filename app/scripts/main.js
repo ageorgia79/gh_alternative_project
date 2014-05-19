@@ -10,7 +10,7 @@ $.getJSON("https://api.github.com/users/ageorgia79").done(function(data){
   renderLeftBar(data)
 });
 
-$.getJSON("https://api.github.com/users/ageorgia79").done(function(data){
+$.getJSON("https://api.github.com/users/ageorgia79/repos").done(function(data){
   renderRightBar(data)
 }); 
 

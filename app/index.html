@@ -14,15 +14,11 @@
         <!-- build:css(.tmp) styles/main.css -->
         <link rel="stylesheet" href="styles/main.css">
         <!-- endbuild -->
-
-
     </head>
     <body>
         <!--[if lt IE 10]>
             <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->
-
-    <div>
         <div class="header">
             <div class="headercontent">
                 <div class="cat">
@@ -31,18 +27,34 @@
                 <div class="dot">
                     <img src="./dot.png">
                 </div>
-                <ul class="navbar">
-                    <li1>Explore</li1>
-                    <li2>Gist</li2>
-                    <li3>Blog</li3>
-                    <li4>Help</li4>
 
+                    <ul class="navbar">
+                        <li1>Explore</li1>
+                        <li2>Gist</li2>
+                        <li3>Blog</li3>
+                        <li4>Help</li4>
+                    </ul>   
 
+                     <ul class="rightnavbar">
+                        <img src="Avatar.jpeg">
+                        <p>ageorgia79</p>
+                     </ul>
 
-                </ul>   
+                <div class="plus">
+                    <img src="plus-icon.png">
+                </div>
 
+                <div class="tools">
+                    <img src="tools-icon.png">
+                </div>
+
+                <div class="door">
+                    <img src="logout-icon.png">
+                </div>
+        
             </div>
         </div>
+
 
         <div class="container">
 
@@ -52,25 +64,38 @@
                 <span2>Following</span2>
                 <span3>Starred</span3>  
                 <a href="https://api.github.com/users/ageorgia79/starred{/owner}{/repo}">0</a>
+            </div>
+
+
+            <div class="topbar"></div>
+
+            <div class="moreinfo">
+                <ul class="centerbar">
+                    <li1>Contributions</li1>
+                    <li2>Repositories</li2>
+                    <li3>Public Activity</li3>
+
+                    
+                </ul>
+
+
 
 
             </div>
-
-              
-
-            
-        
             <div class="rightbar">
-                </div>
 
+
+
+            </div>
 
             </div>
 
         </div> 
+              
 
-    </div>
+            
+        
 
-    
 <!--SCRIPT TAGS-->
     <script type"text/template" class="left-bar">
          <img src="<%= avatar_url %>"  class="avatar">
@@ -106,10 +131,14 @@
 
     <script type"text/template" class="left-bar">
         <div class="following"> <%= following %> </div>
+
     </script>
 
     <script type"text/template" class="right-bar">
         <div class="reponames"> <%= name %> </div>
+        <img class="stars" img src="star-icon.png">
+        <img class="forkimg" img src="fork-icon.png">
+        <!--<img class="books" img src="book-icon-big.png">-->
     </script>
 
     <script type"text/template" class="right-bar">
@@ -127,18 +156,7 @@
     <script type"text/template" class="right-bar">
         <div class="forkscount"> <%= forks_count %> </div>
     </script>
-       
-
-
-    
-   
-    
-
-
-         
-
-    
-
+                
 
         <!-- build:js scripts/vendor.js -->
         <!-- bower:js -->
@@ -162,3 +180,35 @@
         <!-- endbuild -->
 </body>
 </html>
+
+
+            
+              
+
+
+
+
+    
+
+
+
+
+
+
+
+
+    
+
+    
+       
+
+
+    
+   
+    
+
+
+         
+
+    
+
