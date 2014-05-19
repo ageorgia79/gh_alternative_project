@@ -8,6 +8,86 @@ body {
 }
 
 
+.header {
+    width: 100%;
+    height: 40px;
+    background-color: #f3f3f3;
+    border-bottom: 1px solid #e5e5e5;
+    display: block;
+}
+
+.headercontent {
+    width: 980px;
+    height: 40px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.cat {
+    float: left;
+    padding: 8px 10px 6px;  
+    margin-left: -10px;
+    margin-right: 5px;
+}
+.cat img {
+    position: relative;
+    width: 25px;
+    height: 25px;
+}
+
+.dot {
+    float: left;
+    width: 42px;
+    height: 100%;
+    margin-right: 15px;
+    text-align: center;
+    line-height: 40px;
+    padding-left: 1px;
+    border-left: 1px solid #e5e5e5;
+    border-right: 1px solid #e5e5e5;
+}
+
+.dot img {
+    width: 13px;
+    opacity: 0.8;
+
+}
+
+.navbar li1 {
+    display: inline-block;
+    list-style-type: none;
+    font-size: 13px;
+    font-weight: bold;
+    position: relative;
+    left: 235px;
+    top: 11px;
+}
+.navbar li2 {
+    display: inline-block;
+    list-style-type: none;
+    font-size: 13px;
+    font-weight: bold;
+    position: relative;
+    left: 251px;
+    top: 11px;
+}
+.navbar li3 {
+    display: inline-block;
+    list-style-type: none;
+    font-size: 13px;
+    font-weight: bold;
+    position: relative;
+    left: 267px;
+    top: 11px;
+}
+.navbar li4 {
+    display: inline-block;
+    list-style-type: none;
+    font-size: 13px;
+    font-weight: bold;
+    position: relative;
+    left: 283px;
+    top: 11px;
+}
 
 .container {
     width: 980px;
@@ -16,6 +96,8 @@ body {
     margin-right: auto;
     margin-left: auto;
 }
+
+
 
 .leftbar {
     width: 25%;
