@@ -6,11 +6,11 @@ var rightBar = _.template($('.right-bar').text());
 
 
 
-$.getJSON("https://api.github.com/users/ageorgia79").done(function(data){
+$.getJSON("https://api.github.com/users/ageorgia79?client_id=d82f8974d36fff4a443e&client_secret=d37f41c9c6ecb58dd9b8adc1a4987428bb28e5d0").done(function(data){
   renderLeftBar(data)
 });
 
-$.getJSON("https://api.github.com/users/ageorgia79/repos").done(function(data){
+$.getJSON("https://api.github.com/users/ageorgia79/repos?client_id=d82f8974d36fff4a443e&client_secret=d37f41c9c6ecb58dd9b8adc1a4987428bb28e5d0").done(function(data){
   renderRightBar(data)
 }); 
 
@@ -107,18 +107,7 @@ function showForkscount (forks_count) {
   })
 };
 
-//var showRepos = _.template($('.repos').text());
 
-//$.getJSON("https://api.github.com/users/ageorgia79/repos?client_id=d82f8974d36fff4a443e&client_secret=d37f41c9c6ecb58dd9b8adc1a4987428bb28e5d0").done(function(info){
-  //renderRepos(info)
-//});
-
-//function renderRepos (repos) {
-  //repos.forEach(function(module){
-    //var rendered = showRepos(module);
-    //$('body').prepend(rendered);
-  //})
-//};
 
 
 
